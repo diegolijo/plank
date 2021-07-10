@@ -1,0 +1,7 @@
+{
+  "name": "planck",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}
