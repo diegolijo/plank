@@ -1,17 +1,16 @@
 <ion-header>
-  <ion-toolbar color="secondary" style="text-align:center">
+  <ion-toolbar color="primary" style="text-align:center">
     <ion-title>
       Planck
     </ion-title>
-    <ion-buttons slot="end">
-      <ion-button (click)="onClickRestart()" color="primary"  >R</ion-button>
-    </ion-buttons>
   </ion-toolbar>
 </ion-header>
 
-
-<div
-  style=" position: absolute;bottom: 1em;display: flex;width: 100%;flex-direction: row;align-content: space-around;justify-content: space-between;align-items: center; padding:1em">
-  <ion-button (click)="onClickL()" shape="round">L</ion-button>
-  <ion-button (click)="onClickR()" shape="round">R</ion-button>
+<ion-button shape="round" color="tertiary" style="position: absolute;right: 1em; z-index: 10000; top:0.4em"
+  (click)="onClickRestart()">
+  <ion-icon name="refresh-circle-outline" size="large"></ion-icon>
+</ion-button>
+<div  class="btn-container">
+  <ion-button (click)="onClickL()" shape="round" class="btn-action">L</ion-button>
+  <ion-button (click)="onClickR()" shape="round" class="btn-action">R</ion-button>
 </div>

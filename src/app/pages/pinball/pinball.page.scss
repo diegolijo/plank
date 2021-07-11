@@ -1,0 +1,16 @@
+.btn-container {
+  position: absolute;
+  bottom: 0em;
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  align-content: stretch;
+  justify-content: space-between;
+  align-items: baseline;
+  padding: 0em;
+}
+
+.btn-action {
+  height: 8em;
+  width: 8em;
+}

@@ -1,27 +1,18 @@
-#container {
-  text-align: center;
-
+.button-container {
   position: absolute;
-  left: 0;
-  right: 0;
-  top: 50%;
+  bottom: 0em;
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  flex-direction: row;
   transform: translateY(-50%);
 }
 
-#container strong {
-  font-size: 20px;
-  line-height: 26px;
-}
-
-#container p {
+.button-container p {
   font-size: 16px;
   line-height: 22px;
 
   color: #8c8c8c;
 
   margin: 0;
-}
-
-#container a {
-  text-decoration: none;
 }

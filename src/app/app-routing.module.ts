@@ -16,6 +16,11 @@ const routes: Routes = [
     path: 'pinball',
     loadChildren: () => import('./pages/pinball/pinball.module').then(m => m.PinballPageModule)
   },
+  {
+    path: 'prueba-render',
+    loadChildren: () => import('./pages/prueba-render/prueba-render.module').then( m => m.PruebaRenderPageModule)
+  },
+
 ];
 
 @NgModule({

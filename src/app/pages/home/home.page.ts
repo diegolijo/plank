@@ -9,9 +9,6 @@ import { Router } from '@angular/router';
 })
 export class HomePage {
 
-
-
-
   constructor(
     private router: Router
   ) {
@@ -19,7 +16,7 @@ export class HomePage {
   }
 
   public onGoToPinball() {
-    this.router.navigateByUrl('pinball');
+    this.router.navigateByUrl('prueba-render');
   }
 
 
